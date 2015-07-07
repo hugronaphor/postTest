@@ -5,7 +5,7 @@
 require_once 'app/db/dbConnect.php';
 
 // Connect to the mysql.
-$dbConnection = new dbConnect('localhost', 'root', 'gfhjkm', 'fb');
+$dbConnection = new dbConnect('localhost', 'root', 'password', 'db_name');
 
 // Create all the needed tables, if required.
 if (1) {
