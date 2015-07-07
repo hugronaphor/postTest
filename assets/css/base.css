@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 7, 2015, 11:46:00 PM
+    Author     : cornel
+*/
+
+#main-wrapp {
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px;
+}
+
+#main-wrapp header .logo {
+  text-align: center;
+}
+
+#main-wrapp header .user-data {
+  overflow: hidden;
+}
+
+#main-wrapp header .user-data p {
+  float: left;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+
+#main-wrapp header .user-data a {
+  float: right;
+  padding: 0 15px;
+  margin: 0;
+  text-decoration: none;
+
+  background-color:#ed8223;
+  color:#fff;
+  font-family:'Helvetica Neue',sans-serif;
+  font-size:18px;
+  line-height:30px;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  border:0;
+  text-shadow:#C17C3A 0 -1px 0;
+}
+
+
+#main-wrapp header .logo a {
+  text-align: center;
+  font-size: 2em;
+  color: #32b38c;
+  text-decoration: none;
+}
+#main-wrapp header .logo a:hover {
+  color: red;
+}
+
+.main-container article {
+  padding: 10px;
+  border: 1px solid blue;
+  margin: 10px 0;
+}
+
+.main-container article h1.title {
+  font-size: 1.3em;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #1787a1;
+}
+.main-container article .body {
+  font-size: 0.9em;
+  line-height: 1em;
+  margin-bottom: 5px;
+}
+
+/*Add Post for*/
+.post-form {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.post-form input {
+  width: 420px;
+  max-width: 100%;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #999;
+  padding: 6px 4px;
+  outline: none;
+  margin: 0px 0 17px 0;
+  font-size: 19px;
+  box-shadow: 1px 1px 1px #ccc;
+}
+.post-form label {
+  text-align: left;
+  clear: both;
+  color: #999;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+}
+.contact-form .form-type-textarea {
+  display: inline-block;
+  position: relative;
+}
+.post-form textarea {
+  width: 430px;
+  max-width: 100%;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #999;
+  padding: 6px 4px;
+  outline: none;
+  margin: 0px 0 17px 0;
+  font-size: 19px;
+  box-shadow: 1px 1px 1px #ccc;
+}
+
+input[type="submit"] {
+  color: #daa675;
+  background-color: #fff;
+  border: 1px solid #daa675;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
